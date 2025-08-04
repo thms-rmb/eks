@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+set -x
+
+id -u > .devcontainer/host_uid
+id -g > .devcontainer/host_gid
